@@ -11,9 +11,8 @@ let nome = prompt("Insira seu nome:");
 
 if (idade === 23 && nome === "Ana") {
   console.log("Seu nome é Ana e você tem 23 anos");
-}
-if (idade === 23 || nome === "Ana") {
-  console.log("Você tem 23 anos ou seu nome é Ana");
+} else if (idade === 23 || nome === "Ana") {
+  console.log("Você tem 23 anos OU seu nome é Ana");
 } else {
   console.log("Seu nome não é Ana e você não tem 23 anos");
 }
